@@ -14,14 +14,6 @@ body{
 	-webkit-font-smoothing: antialiased;
 }
 
-background: repeating-linear-gradient(
-  45deg,
-  #606dbc,
-  #606dbc 10px,
-  #465298 10px,
-  #465298 20px
-);
-
 h1,h2,h3,h4,h5,h6{
 	
 }
