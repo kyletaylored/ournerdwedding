@@ -293,6 +293,54 @@ hr{
 	color:#666;
 }
 
+/* Wedding Party */
+
+.weddingparty{
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+.weddingparty  p.weddingparty-para{
+	font-family: 'Droid Serif', serif;
+	font-style:italic;
+	font-size:17px;
+	line-height:30px;
+	color:#666;
+	width:500px;
+	margin:0px auto;
+}
+
+.weddingparty .groom h3{
+	font-family: 'Droid Serif', serif;
+	font-size:40px;
+	color:444;
+	text-transform:uppercase;
+}
+
+.weddingparty .groom p{
+	font-family: 'Droid Serif', serif;
+	font-style:italic;
+	font-size:15px;
+	line-height:30px;
+	color:#666;
+}
+
+.weddingparty .bride h3{
+	text-align:center;
+	font-family: 'Droid Serif', serif;
+	font-size:40px;
+	color:444;
+	text-transform:uppercase;
+}
+
+.weddingparty .bride p{
+	font-family: 'Droid Serif', serif;
+	font-style:italic;
+	font-size:15px;
+	line-height:30px;
+	color:#666;
+}
+
 /* Photos */
 
 .flex-direction-nav {
