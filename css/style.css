@@ -10,9 +10,17 @@ body{
 	font-size:13px;
 	line-height:20px;
 	padding-top:48px;
-	background:#ddd url('../img/back.png') repeat;
+	background:#FFF;
 	-webkit-font-smoothing: antialiased;
 }
+
+background: repeating-linear-gradient(
+  45deg,
+  #606dbc,
+  #606dbc 10px,
+  #465298 10px,
+  #465298 20px
+);
 
 h1,h2,h3,h4,h5,h6{
 	
@@ -70,20 +78,20 @@ hr{
 }
 
 .wedding .well a{
-	color:#D32020;
+	color:#ff8400;
 	text-decoration:none;
 }
 
 .wedding .well a:hover{
-	color:#cb1e08;;
+	color:#000000;
 }
 
 
 /* Navigation */
 
 .navbar{
-	background:#ed4934;
-	border-color: #D32020;
+	background:#ff8400;
+	border-color: #f01d50;
 }
 
 .navbar .navbar-header .navbar-toggle span.menu{
@@ -116,7 +124,7 @@ hr{
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-	border-color: #e9331b;
+	border-color: #f01d50;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -155,7 +163,7 @@ hr{
 .main .main-invite .signal{
 	line-height:16px;
 	display:inline-block;
-	background:#ed4934;
+	background:#f01d50;
 	padding:5px;
 	border-radius:25px;
 	color:#fff;
@@ -195,7 +203,7 @@ hr{
 }
 
 .main .main-date{
-	background:#ed4934;
+	background:#f01d50;
 	padding-left:10px;
 	padding-top:50px;
 	padding-bottom:40px;
@@ -269,7 +277,7 @@ hr{
 
 .about .love i{
 	font-size:130px;
-	color:#ed4934;
+	color:#f01d50;
 }
 
 .about .love h3{
@@ -328,11 +336,12 @@ hr{
 
 .rsvp .heart{
 	text-align:center;
+	color:#f01d50;
 }
 
 .rsvp i{
 	font-size:120px;
-	color:#ed4934;
+	color:#f01d50;
 }
 
 .rsvp .well{
@@ -372,7 +381,7 @@ hr{
 
 .footer .copy a{
 	text-decoration:none;
-	color:#ed4934;
+	color:#f01d50;
 }
 
 .footer .copy a:hover{
@@ -384,7 +393,7 @@ hr{
 	bottom: 0px;
 	right: 0px;
 	z-index: 104400;
-	background: #fa3031;
+	background: #f01d50;
 }
 
 .totop a, .totop a:visited, .totop a:hover{
