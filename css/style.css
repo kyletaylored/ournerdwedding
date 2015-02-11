@@ -341,6 +341,20 @@ hr{
 	color:#666;
 }
 
+.weddingparty .bride h5{
+	font-family: 'Droid Serif', serif;
+	font-size:15px;
+	line-height:30px;
+	color:#666;
+}
+
+.weddingparty .groom h5{
+	font-family: 'Droid Serif', serif;
+	font-size:15px;
+	line-height:30px;
+	color:#666;
+}
+
 /* Photos */
 
 .flex-direction-nav {
@@ -471,6 +485,11 @@ hr{
 	.main .main-date .date span.year{
 		font-size:48px;
 		line-height:60px;
+	}
+	
+	/* Apply padding to td elements that are direct children of the tr element. */
+	tr.spaceUnder > tr {
+		padding-bottom: 10px;
 	}
 }
 
